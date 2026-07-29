@@ -1,0 +1,18 @@
+{
+  "_comment": "قاعدة بيانات أولية (seed) لتصنيف مصداقية المصادر. نسبة 0-100. لازم تتوسع يدويًا.",
+  "sources": [
+    {"domain": "reuters.com", "name": "رويترز", "credibility": 95, "type": "وكالة أنباء عالمية"},
+    {"domain": "apnews.com", "name": "أسوشيتد برس", "credibility": 95, "type": "وكالة أنباء عالمية"},
+    {"domain": "afp.com", "name": "فرانس برس", "credibility": 93, "type": "وكالة أنباء عالمية"},
+    {"domain": "aljazeera.net", "name": "الجزيرة", "credibility": 75, "type": "قناة إخبارية"},
+    {"domain": "bbc.com", "name": "بي بي سي عربي", "credibility": 88, "type": "قناة إخبارية"},
+    {"domain": "misbar.com", "name": "مسبار", "credibility": 90, "type": "منصة تصحيح شائعات"},
+    {"domain": "fatabyyano.net", "name": "فتبينوا", "credibility": 88, "type": "منصة تصحيح شائعات"},
+    {"domain": "sis.gov.eg", "name": "الهيئة العامة للاستعلامات المصرية", "credibility": 70, "type": "مصدر حكومي"},
+    {"domain": "ahram.org.eg", "name": "الأهرام", "credibility": 65, "type": "صحيفة محلية"},
+    {"domain": "youm7.com", "name": "اليوم السابع", "credibility": 50, "type": "صحيفة محلية"},
+    {"domain": "facebook.com", "name": "فيسبوك (منشور فردي)", "credibility": 15, "type": "سوشيال ميديا"},
+    {"domain": "twitter.com", "name": "تويتر/إكس (تغريدة فردية)", "credibility": 15, "type": "سوشيال ميديا"},
+    {"domain": "x.com", "name": "إكس (تغريدة فردية)", "credibility": 15, "type": "سوشيال ميديا"}
+  ]
+}
