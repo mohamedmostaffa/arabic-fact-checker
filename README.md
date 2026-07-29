@@ -34,9 +34,9 @@ Git & GitHub
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohamedmostaffa/final_project.git
+git clone https://github.com/mohamedmostaffa/arabic-fact-checker.git
 
-cd final_project
+cd arabic-fact-checker
 
 # Install backend dependencies
 pip install -r requirements.txt
